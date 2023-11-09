@@ -1,12 +1,12 @@
 import '../src/foother.css';
-import edificio from '../public/edificio.jpg'
-import captura from '../public/captura.jpg'
-import aws from '../public/aws.jpg'
-import oficina from '../public/oficina.jpg'
-import icono1 from '../public/icono1.png'
-import icono2 from '../public/icono2.png'
-import icono3 from '../public/icono3.png'
-import amazon from '../public/amazon.png'
+import edificio from './images/edificio.jpg'
+import captura from './images/captura.jpg'
+import aws from './images/aws.jpg'
+import oficina from './images/oficina.jpg'
+import icono1 from './images/icono1.png'
+import icono2 from './images/icono2.png'
+import icono3 from './images/icono3.png'
+import amazon from './images/amazon.png'
 
 const Presentation = () => {
   return (
