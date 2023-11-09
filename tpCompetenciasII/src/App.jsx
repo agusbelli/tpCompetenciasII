@@ -1,19 +1,11 @@
 import '../src/foother.css';
-import edificio from './images/edificio.jpg'
-import captura from './images/captura.jpg'
-import aws from './images/aws.jpg'
-import oficina from './images/oficina.jpg'
-import icono1 from './images/icono1.png'
-import icono2 from './images/icono2.png'
-import icono3 from './images/icono3.png'
-import amazon from './images/amazon.png'
 
 const Presentation = () => {
   return (
     <div>
       <nav style={styles.navbar}>
         <ul style={styles.navList}>
-          <li style={styles.navListli}><a style={styles.navLista} href="#joinAmazon"><img style={{width:'50px'}}src={amazon} alt="" /></a></li>
+          <li style={styles.navListli}><a style={styles.navLista} href="#joinAmazon"><img style={{width:'50px'}}src="https://res.cloudinary.com/djqwbu0my/image/upload/v1699496414/tpCompetencias/amazon_tjta6k.png" alt="" /></a></li>
           <button style={styles.navListliButton}><a style={styles.navLista} href="#externalCommunication">Comunicación externa</a></button>
           <button style={styles.navListliButton}><a style={styles.navLista} href="#internalCommunication">Comunicación interna</a></button>
           <button style={styles.navListliButton}><a style={styles.navLista} href="#diversification">Diversificación</a></button>
@@ -32,12 +24,12 @@ const Presentation = () => {
               Amazon es una empresa líder en tecnología e innovación que ofrece un ambiente de trabajo dinámico y motivador. Si estás buscando unirte a un equipo apasionado en una empresa en constante crecimiento, ¡estás en el lugar correcto!
             </p>
           </div>
-          <img style={styles.imagen} src={edificio} alt="edificio" />
+          <img style={styles.imagen} src="https://res.cloudinary.com/djqwbu0my/image/upload/v1699496414/tpCompetencias/edificio_igwush.jpg" alt="edificio" />
         </div>
       </section>
       <section id="externalCommunication" style={styles.section2}>
         <div style={{ display: 'flex' }}>
-          <img style={styles.imagen} src={captura} alt="captura" />
+          <img style={styles.imagen} src="https://res.cloudinary.com/djqwbu0my/image/upload/v1699496414/tpCompetencias/captura_cafjlh.jpg" alt="captura" />
           <div style={{ marginLeft: '50px' }}>
             <h2 style={styles.title}>Nuestra comunicación externa</h2>
             <p style={styles.paragraph}>
@@ -54,7 +46,7 @@ const Presentation = () => {
       </section>
       <section id="diversification" style={styles.section2}>
         <div style={{ display: 'flex' }}>
-          <img style={styles.imagen} src={aws} alt="captura" />
+          <img style={styles.imagen} src="https://res.cloudinary.com/djqwbu0my/image/upload/v1699496414/tpCompetencias/aws_ukucp4.jpg" alt="captura" />
           <div style={{ marginLeft: '50px' }}>
             <h2 style={styles.title}>Nuestra diversificación</h2>
             <p style={styles.paragraph}>
@@ -77,7 +69,7 @@ const Presentation = () => {
               Amazon ha invertido significativamente en nuestra infraestructura logística y cadena de suministro con el objetivo de garantizar entregas rápidas y confiables a nuestros clientes. Hemos construido múltiples centros de cumplimiento, establecido una flota de vehículos de entrega y implementado tecnología avanzada de seguimiento.
             </p>
           </div>
-          <img style={styles.imagen} src={oficina} alt="oficina" />
+          <img style={styles.imagen} src="https://res.cloudinary.com/djqwbu0my/image/upload/v1699496414/tpCompetencias/oficina_kz3gnv.jpg" alt="oficina" />
         </div>
       </section>
       <section id="socialImpact" style={styles.section}>
@@ -90,7 +82,7 @@ const Presentation = () => {
         <h2 style={styles.title}>Nuestro compromiso con la excelencia</h2>
         <div style={{ display: "flex" }}>
           <section style={styles.sectionChiquita}>
-            <img style={styles.imagen} src={icono1} alt="icono1" />
+            <img style={styles.imagen} src="https://res.cloudinary.com/djqwbu0my/image/upload/v1699496414/tpCompetencias/icono1_c2fy6z.png" alt="icono1" />
             <h2 style={styles.titleChiquita}>En la logística</h2>
             <p style={styles.paragraph}>
               Nos esforzamos por mejorar nuestros tiempos de entrega y garantizar que nuestros clientes reciban sus productos a tiempo.
@@ -101,10 +93,10 @@ const Presentation = () => {
             <p style={styles.paragraph}>
               Nos enfocamos en brindar a nuestros clientes una experiencia de compra excepcional en todo momento.
             </p>
-            <img style={styles.imagen} src={icono2} alt="icono2" />
+            <img style={styles.imagen} src="https://res.cloudinary.com/djqwbu0my/image/upload/v1699496414/tpCompetencias/icono2_qfvyck.png" alt="icono2" />
           </section>
           <section style={styles.sectionChiquita}>
-            <img style={styles.imagen} src={icono3} alt="icono3" />
+            <img style={styles.imagen} src="https://res.cloudinary.com/djqwbu0my/image/upload/v1699496414/tpCompetencias/icono3_l2cpx7.png" alt="icono3" />
             <h2 style={styles.titleChiquita}>En la tecnología</h2>
             <p style={styles.paragraph}>
               Nos mantenemos a la vanguardia de la tecnología y las últimas innovaciones para brindarte la mejor experiencia de compra en línea.
@@ -130,13 +122,12 @@ const Presentation = () => {
             <h4>Materia:</h4>
             <p>Competencias Comunicacionales II</p>
           </div>
-          <div style={{...styles.footerSection, color:'yellow'}}>
+          <div style={{...styles.footerSection, color:'#FF9900'}}>
             <p>Escuela Superior de Comercio</p>
           </div>
         </div>
       </footer>
     </div>
-
   )
 };
 
